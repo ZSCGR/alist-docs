@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/zh/guide/drivers/baidu.html.vue"
+const data = JSON.parse("{\"path\":\"/zh/guide/drivers/baidu.html\",\"title\":\"百度网盘\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"iconfont icon-state\",\"order\":66,\"category\":[\"Guide\"],\"tag\":[\"Storage\",\"Guide\",\"302\",\"官方\"],\"sticky\":true,\"star\":true,\"description\":\"百度网盘 提示 由于百度网盘 API 的限制，下载大于 20M 左右的文件需要携带 header：\\\"User-Agent\\\":\\\"pan.baidu.com\\\"，所以下载大于 20M 的文件时，需要设置请求头，例如使用 curl： 或者使用本程序中的代理功能进行传输。 刷新令牌 点击这里 来获取刷新令牌。 根文件夹ID 要挂载的根文件夹，默认为/ 单独挂载某...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"百度网盘\\\",\\\"image\\\":[\\\"https://alist.nn.ci/img/drivers/baidu/bdUA.png\\\",\\\"https://alist.nn.ci/img/drivers/baidu/aria2-ua.png\\\",\\\"https://alist.nn.ci/img/drivers/baidu/motrix-ua.png\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/zh/guide/drivers/baidu.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList文档\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"百度网盘\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"百度网盘 提示 由于百度网盘 API 的限制，下载大于 20M 左右的文件需要携带 header：\\\"User-Agent\\\":\\\"pan.baidu.com\\\"，所以下载大于 20M 的文件时，需要设置请求头，例如使用 curl： 或者使用本程序中的代理功能进行传输。 刷新令牌 点击这里 来获取刷新令牌。 根文件夹ID 要挂载的根文件夹，默认为/ 单独挂载某...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://alist.nn.ci/img/drivers/baidu/bdUA.png\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"官方\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"302\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Storage\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://alist.nn.ci/guide/drivers/baidu.html\"}]]},\"readingTime\":{\"minutes\":5.86,\"words\":1759},\"filePathRelative\":\"zh/guide/drivers/baidu.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

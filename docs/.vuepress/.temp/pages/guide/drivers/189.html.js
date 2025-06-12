@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/guide/drivers/189.html.vue"
+const data = JSON.parse("{\"path\":\"/guide/drivers/189.html\",\"title\":\"189Cloud\",\"lang\":\"en-US\",\"frontmatter\":{\"icon\":\"iconfont icon-state\",\"order\":41,\"category\":[\"Guide\"],\"tag\":[\"Storage\",\"Guide\",\"302\"],\"sticky\":true,\"star\":true,\"description\":\"189Cloud Tips The web -side login has been replaced with sliding verification code, no longer supports OCR and manual input. If the verification code needs to be used, please us...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"189Cloud\\\",\\\"image\\\":[\\\"https://alist.nn.ci/img/drivers/189.png\\\",\\\"https://alist.nn.ci/img/drivers/189/189-1.png\\\",\\\"https://alist.nn.ci/img/drivers/189/189-0.png\\\",\\\"https://alist.nn.ci/img/drivers/189/189-2.png\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/guide/drivers/189.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList Docs\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"189Cloud\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"189Cloud Tips The web -side login has been replaced with sliding verification code, no longer supports OCR and manual input. If the verification code needs to be used, please us...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://alist.nn.ci/img/drivers/189.png\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"302\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Storage\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"zh-cn\",\"href\":\"https://alist.nn.ci/zh/guide/drivers/189.html\"}]]},\"readingTime\":{\"minutes\":1.34,\"words\":403},\"filePathRelative\":\"guide/drivers/189.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/zh/guide/install/source.html.vue"
+const data = JSON.parse("{\"path\":\"/zh/guide/install/source.html\",\"title\":\"从源码运行\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"iconfont icon-code\",\"order\":9,\"category\":[\"Guide\"],\"tag\":[\"Install\",\"Guide\"],\"sticky\":true,\"star\":true,\"description\":\"从源码运行 警告 此步骤仅适用于需要自行修改源代码的用户。 不明白的请跳过。 环境准备 首先，你需要一个有git，nodejs，pnpm，golang>=1.20，gcc的环境 构建前端 使用 git clone --recurse-submodules https://github.com/alist-org/alist-web.git 克隆前端 ，...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"从源码运行\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/zh/guide/install/source.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList文档\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"从源码运行\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"从源码运行 警告 此步骤仅适用于需要自行修改源代码的用户。 不明白的请跳过。 环境准备 首先，你需要一个有git，nodejs，pnpm，golang>=1.20，gcc的环境 构建前端 使用 git clone --recurse-submodules https://github.com/alist-org/alist-web.git 克隆前端 ，...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Install\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://alist.nn.ci/guide/install/source.html\"}]]},\"readingTime\":{\"minutes\":1.08,\"words\":325},\"filePathRelative\":\"zh/guide/install/source.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

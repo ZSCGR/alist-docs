@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/guide/drivers/sfpt.html.vue"
+const data = JSON.parse("{\"path\":\"/guide/drivers/sfpt.html\",\"title\":\"SFTP\",\"lang\":\"en-US\",\"frontmatter\":{\"icon\":\"iconfont icon-state\",\"order\":206,\"category\":[\"Guide\"],\"tag\":[\"Storage\",\"Guide\",\"Native Rroxy\"],\"sticky\":true,\"star\":true,\"description\":\"SFTP That is to access files through the ssh protocol. Address SSH address, need contains port. Username ssh username, usually root Password ssh password Private key Use Private...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"SFTP\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/guide/drivers/sfpt.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList Docs\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"SFTP\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"SFTP That is to access files through the ssh protocol. Address SSH address, need contains port. Username ssh username, usually root Password ssh password Private key Use Private...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Native Rroxy\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Storage\"}]]},\"readingTime\":{\"minutes\":0.55,\"words\":164},\"filePathRelative\":\"guide/drivers/sfpt.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

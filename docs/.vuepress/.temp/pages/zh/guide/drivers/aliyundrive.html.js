@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/zh/guide/drivers/aliyundrive.html.vue"
+const data = JSON.parse("{\"path\":\"/zh/guide/drivers/aliyundrive.html\",\"title\":\"阿里云盘 / 分享\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"iconfont icon-state\",\"order\":16,\"category\":[\"Guide\"],\"tag\":[\"Storage\",\"Guide\",\"302\"],\"sticky\":true,\"star\":true,\"description\":\"阿里云盘 / 分享 注意 不推荐使用该驱动，因为它不稳定，随时可能被屏蔽，我们会在以后的版本中移除。推荐使用官方 API 的驱动 。 提示 由于阿里云盘 referer 的限制，必须使用移动端 token。 使用桌面 Web 令牌将导致无法下载和预览。 当然，如果你在本地使用或者带宽足够大，你也可以开启代理，让桌面 Web 的 refresh toke...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"阿里云盘 / 分享\\\",\\\"image\\\":[\\\"https://alist.nn.ci/img/drivers/aliyundrive.png\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/zh/guide/drivers/aliyundrive.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList文档\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"阿里云盘 / 分享\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"阿里云盘 / 分享 注意 不推荐使用该驱动，因为它不稳定，随时可能被屏蔽，我们会在以后的版本中移除。推荐使用官方 API 的驱动 。 提示 由于阿里云盘 referer 的限制，必须使用移动端 token。 使用桌面 Web 令牌将导致无法下载和预览。 当然，如果你在本地使用或者带宽足够大，你也可以开启代理，让桌面 Web 的 refresh toke...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://alist.nn.ci/img/drivers/aliyundrive.png\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"302\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Storage\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://alist.nn.ci/guide/drivers/aliyundrive.html\"}]]},\"readingTime\":{\"minutes\":2.52,\"words\":756},\"filePathRelative\":\"zh/guide/drivers/aliyundrive.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

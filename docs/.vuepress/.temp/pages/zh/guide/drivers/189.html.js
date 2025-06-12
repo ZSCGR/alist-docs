@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/zh/guide/drivers/189.html.vue"
+const data = JSON.parse("{\"path\":\"/zh/guide/drivers/189.html\",\"title\":\"电信天翼云盘\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"iconfont icon-state\",\"order\":41,\"category\":[\"Guide\"],\"tag\":[\"Storage\",\"Guide\",\"302\"],\"sticky\":true,\"star\":true,\"description\":\"电信天翼云盘 提示 Web端登录已更换为滑动验证码，不再支持ocr与手动输入，若需要验证码请使用添加Cookie进行登录或使用天翼云盘客户端驱动 个人云 用户名 用于登录的电话号码 密码 登录密码 根文件夹ID 官网 URL 末尾的字符串，如： https://cloud.189.cn/web/main/file/folder/-11 -> -11 h...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"电信天翼云盘\\\",\\\"image\\\":[\\\"https://alist.nn.ci/img/drivers/189.png\\\",\\\"https://alist.nn.ci/img/drivers/189/189-1.png\\\",\\\"https://alist.nn.ci/img/drivers/189/189-0.png\\\",\\\"https://alist.nn.ci/img/drivers/189/189-2.png\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/zh/guide/drivers/189.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList文档\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"电信天翼云盘\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"电信天翼云盘 提示 Web端登录已更换为滑动验证码，不再支持ocr与手动输入，若需要验证码请使用添加Cookie进行登录或使用天翼云盘客户端驱动 个人云 用户名 用于登录的电话号码 密码 登录密码 根文件夹ID 官网 URL 末尾的字符串，如： https://cloud.189.cn/web/main/file/folder/-11 -> -11 h...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://alist.nn.ci/img/drivers/189.png\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"302\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Storage\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://alist.nn.ci/guide/drivers/189.html\"}]]},\"readingTime\":{\"minutes\":1.82,\"words\":545},\"filePathRelative\":\"zh/guide/drivers/189.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

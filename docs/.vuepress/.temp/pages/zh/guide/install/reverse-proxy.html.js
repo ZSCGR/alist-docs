@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/zh/guide/install/reverse-proxy.html.vue"
+const data = JSON.parse("{\"path\":\"/zh/guide/install/reverse-proxy.html\",\"title\":\"反向代理\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"iconfont icon-page\",\"order\":11,\"category\":[\"Guide\"],\"tag\":[\"Install\",\"Guide\"],\"sticky\":true,\"star\":true,\"description\":\"反向代理 程序默认监听 5244 端口。如有修改，请一并修改下列配置中的端口号。如果你使用反向代理，建议你设置，以帮助alist更好的工作。 如果你想使用子目录，参考 反向代理非标准端口或启用https后丢失https或端口号/无法播放视频? 你需要通过正确的Host头,请参考 #726 #1159 #2429 #3644 #4181 #4719 ng...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"反向代理\\\",\\\"image\\\":[\\\"https://alist.nn.ci/img/guide/reverse_proxy/bt_new_website.png\\\",\\\"https://alist.nn.ci/img/guide/reverse_proxy/bt_new_website_01.png\\\",\\\"https://alist.nn.ci/img/guide/reverse_proxy/bt_delete_default_config_01.png\\\",\\\"https://alist.nn.ci/img/guide/reverse_proxy/bt_delete_default_config_02.png\\\",\\\"https://alist.nn.ci/img/guide/reverse_proxy/bt_reverse_proxy.png\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/zh/guide/install/reverse-proxy.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList文档\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"反向代理\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"反向代理 程序默认监听 5244 端口。如有修改，请一并修改下列配置中的端口号。如果你使用反向代理，建议你设置，以帮助alist更好的工作。 如果你想使用子目录，参考 反向代理非标准端口或启用https后丢失https或端口号/无法播放视频? 你需要通过正确的Host头,请参考 #726 #1159 #2429 #3644 #4181 #4719 ng...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://alist.nn.ci/img/guide/reverse_proxy/bt_new_website.png\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Install\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://alist.nn.ci/guide/install/reverse-proxy.html\"}]]},\"readingTime\":{\"minutes\":2.21,\"words\":663},\"filePathRelative\":\"zh/guide/install/reverse-proxy.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

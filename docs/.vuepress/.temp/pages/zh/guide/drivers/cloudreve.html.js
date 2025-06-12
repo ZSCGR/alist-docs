@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/zh/guide/drivers/cloudreve.html.vue"
+const data = JSON.parse("{\"path\":\"/zh/guide/drivers/cloudreve.html\",\"title\":\"Cloudreve V3\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"iconfont icon-state\",\"order\":256,\"category\":[\"Guide\"],\"tag\":[\"Storage\",\"Guide\",\"本地代理\",\"302\"],\"sticky\":true,\"star\":true,\"description\":\"Cloudreve V3 参数说明 地址 Cloudreve V3 服务器的地址，如：https://www.example.com，最好删掉后面的斜线/。 鉴权 Cloudreve V3 使用 Cookie 进行鉴权，这意味着挂载鉴权方式分为： 用户名+密码：会自动使用登录接口获取 Cookie，存在验证码问题 仅 Cookie：参数可从浏览器请求或...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"Cloudreve V3\\\",\\\"image\\\":[\\\"https://alist.nn.ci/img/drivers/cloudreve/cloudreve_get_cookie.png\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/zh/guide/drivers/cloudreve.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList文档\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"Cloudreve V3\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"Cloudreve V3 参数说明 地址 Cloudreve V3 服务器的地址，如：https://www.example.com，最好删掉后面的斜线/。 鉴权 Cloudreve V3 使用 Cookie 进行鉴权，这意味着挂载鉴权方式分为： 用户名+密码：会自动使用登录接口获取 Cookie，存在验证码问题 仅 Cookie：参数可从浏览器请求或...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://alist.nn.ci/img/drivers/cloudreve/cloudreve_get_cookie.png\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"302\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"本地代理\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Storage\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://alist.nn.ci/guide/drivers/cloudreve.html\"}]]},\"readingTime\":{\"minutes\":1.67,\"words\":502},\"filePathRelative\":\"zh/guide/drivers/cloudreve.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/zh/guide/drivers/115.html.vue"
+const data = JSON.parse("{\"path\":\"/zh/guide/drivers/115.html\",\"title\":\"115 网盘 / 分享\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"iconfont icon-state\",\"order\":26,\"category\":[\"Guide\"],\"tag\":[\"Storage\",\"Guide\",\"302\"],\"sticky\":true,\"star\":true,\"headerDepth\":5,\"toc\":{\"levels\":[2,7]},\"description\":\"115 网盘 / 分享 提示 115 个人网盘 视频教程(优先选择文字教程) 视频教程有可能因为时间关系导致部分视频内功能不可用或产生变化 所以推荐优先选择文字教程，当然如果你看不懂文字教程或者嫌麻烦也可以观看视频教程 视频发布时间：2024-10-24 https://www.bilibili.com/video/BV1scy6Y6ESa 根文件夹 ...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"115 网盘 / 分享\\\",\\\"image\\\":[\\\"https://alist.nn.ci/img/drivers/115/115_qrcode.png\\\",\\\"https://github.com/yenkn/115-to-alist/raw/main/docs/tutorial.png\\\",\\\"https://alist.nn.ci/img/drivers/offline_download_error.png\\\",\\\"https://alist.nn.ci/img/drivers/115/url_demo.png\\\",\\\"https://alist.nn.ci/img/drivers/115/root_cid.png\\\",\\\"https://alist.nn.ci/img/drivers/115/file_cid.png\\\",\\\"https://alist.nn.ci/img/drivers/115/add_error.png\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/zh/guide/drivers/115.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList文档\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"115 网盘 / 分享\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"115 网盘 / 分享 提示 115 个人网盘 视频教程(优先选择文字教程) 视频教程有可能因为时间关系导致部分视频内功能不可用或产生变化 所以推荐优先选择文字教程，当然如果你看不懂文字教程或者嫌麻烦也可以观看视频教程 视频发布时间：2024-10-24 https://www.bilibili.com/video/BV1scy6Y6ESa 根文件夹 ...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://alist.nn.ci/img/drivers/115/115_qrcode.png\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"302\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Storage\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://alist.nn.ci/guide/drivers/115.html\"}]]},\"readingTime\":{\"minutes\":11.32,\"words\":3397},\"filePathRelative\":\"zh/guide/drivers/115.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

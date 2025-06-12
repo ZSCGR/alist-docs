@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/zh/guide/advanced/2fa.html.vue"
+const data = JSON.parse("{\"path\":\"/zh/guide/advanced/2fa.html\",\"title\":\"2FA\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"iconfont icon-token\",\"order\":5,\"category\":[\"Guide\"],\"tag\":[\"Advanced\",\"Guide\"],\"sticky\":true,\"star\":true,\"description\":\"2FA 要启用双因素身份验证，需要在手机上安装支持 TOTP 的验证器，例如 Google Authenticator，Microsoft Authenticator 然后登录 AList 管理并进入“个人资料”页面，点击“启用 2FA”按钮，用你的 2FA 应用扫描二维码，输入你的 2FA 应用生成的代码。 最后，单击“验证”按钮启用 2FA。 每个...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"2FA\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/zh/guide/advanced/2fa.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList文档\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"2FA\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"2FA 要启用双因素身份验证，需要在手机上安装支持 TOTP 的验证器，例如 Google Authenticator，Microsoft Authenticator 然后登录 AList 管理并进入“个人资料”页面，点击“启用 2FA”按钮，用你的 2FA 应用扫描二维码，输入你的 2FA 应用生成的代码。 最后，单击“验证”按钮启用 2FA。 每个...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Advanced\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://alist.nn.ci/guide/advanced/2fa.html\"}]]},\"readingTime\":{\"minutes\":1.38,\"words\":413},\"filePathRelative\":\"zh/guide/advanced/2fa.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

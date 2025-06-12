@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/zh/guide/drivers/uc.html.vue"
+const data = JSON.parse("{\"path\":\"/zh/guide/drivers/uc.html\",\"title\":\"UC / TV\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"iconfont icon-state\",\"order\":176,\"category\":[\"Guide\"],\"tag\":[\"Storage\",\"Guide\",\"本地代理\",\"302\"],\"sticky\":true,\"star\":true,\"description\":\"UC / TV UC 网盘 https://drive.uc.cn/ Cookie 在 F12任意请求中找到携带 Cookie 的值 根文件夹ID 根目录ID为 0 子文件夹ID进入文件夹后顶部地址栏获取目录ID，如果子目录越深目录ID在地址栏越靠后，想挂载哪个子目录就写那个子目录ID就可以 默认使用的下载方式 UC TV TV 版支持 302，但是只...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"UC / TV\\\",\\\"image\\\":[\\\"https://alist.nn.ci/img/drivers/uc/uc_cookie.png\\\",\\\"https://alist.nn.ci/img/drivers/uc/uc_fileid.png\\\",\\\"https://alist.nn.ci/img/drivers/tv_qrcode.png\\\",\\\"https://alist.nn.ci/img/drivers/uc/uc_fileid.png\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/zh/guide/drivers/uc.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList文档\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"UC / TV\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"UC / TV UC 网盘 https://drive.uc.cn/ Cookie 在 F12任意请求中找到携带 Cookie 的值 根文件夹ID 根目录ID为 0 子文件夹ID进入文件夹后顶部地址栏获取目录ID，如果子目录越深目录ID在地址栏越靠后，想挂载哪个子目录就写那个子目录ID就可以 默认使用的下载方式 UC TV TV 版支持 302，但是只...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://alist.nn.ci/img/drivers/uc/uc_cookie.png\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"302\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"本地代理\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Storage\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://alist.nn.ci/guide/drivers/uc.html\"}]]},\"readingTime\":{\"minutes\":1.9,\"words\":569},\"filePathRelative\":\"zh/guide/drivers/uc.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

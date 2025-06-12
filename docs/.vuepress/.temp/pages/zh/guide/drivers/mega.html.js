@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/zh/guide/drivers/mega.html.vue"
+const data = JSON.parse("{\"path\":\"/zh/guide/drivers/mega.html\",\"title\":\"MEGA\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"iconfont icon-state\",\"order\":211,\"category\":[\"Guide\"],\"tag\":[\"Storage\",\"Guide\",\"本地代理\",\"官方\"],\"sticky\":true,\"star\":true,\"description\":\"MEGA MEGA官网：https://mega.nz/login 邮箱 MEGA登录账号 密码 登录密码 两步验证 非必填选项，如果开启了需要填写，没开启的不需要填写 两步验证秘钥 https://mega.nz/fm/account/security/two-factor-authentication 点击启用 启用双重验证（2FA）然后会看到一个...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"MEGA\\\",\\\"image\\\":[\\\"https://alist.nn.ci/img/drivers/mega/mega_2fa.png\\\",\\\"https://alist.nn.ci/img/drivers/mega/mega_2fa_code.png\\\",\\\"https://alist.nn.ci/img/drivers/mega/mega_add.png\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/zh/guide/drivers/mega.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList文档\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"MEGA\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"MEGA MEGA官网：https://mega.nz/login 邮箱 MEGA登录账号 密码 登录密码 两步验证 非必填选项，如果开启了需要填写，没开启的不需要填写 两步验证秘钥 https://mega.nz/fm/account/security/two-factor-authentication 点击启用 启用双重验证（2FA）然后会看到一个...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://alist.nn.ci/img/drivers/mega/mega_2fa.png\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"官方\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"本地代理\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Storage\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://alist.nn.ci/guide/drivers/mega.html\"}]]},\"readingTime\":{\"minutes\":1.32,\"words\":396},\"filePathRelative\":\"zh/guide/drivers/mega.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

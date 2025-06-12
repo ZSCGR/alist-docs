@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/guide/advanced/sso.html.vue"
+const data = JSON.parse("{\"path\":\"/guide/advanced/sso.html\",\"title\":\"Third-party single sign-on\",\"lang\":\"en-US\",\"frontmatter\":{\"icon\":\"iconfont icon-group\",\"order\":9,\"category\":[\"Guide\"],\"tag\":[\"Advanced\",\"Guide\"],\"sticky\":true,\"star\":true,\"description\":\"Third-party single sign-on Single sign-on client id client ID Single sign-on client secrets secrets ID matters needing attention Remember to write and save the background parame...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"Third-party single sign-on\\\",\\\"image\\\":[\\\"https://alist.nn.ci/img/advanced/github.png\\\",\\\"https://alist.nn.ci/img/advanced/dingding.png\\\",\\\"https://alist.nn.ci/img/advanced/weiruan.png\\\",\\\"https://alist.nn.ci/img/drivers/google/Google-6.png\\\",\\\"https://alist.nn.ci/img/advanced/google.png\\\",\\\"https://alist.nn.ci/img/advanced/casdoor.png\\\",\\\"https://alist.nn.ci/img/advanced/casdoor-user.png\\\",\\\"https://alist.nn.ci/img/advanced/sso-add.png\\\",\\\"https://alist.nn.ci/img/advanced/sso-dir.png\\\",\\\"https://alist.nn.ci/img/advanced/sso-permission_b.png#light\\\",\\\"https://alist.nn.ci/img/advanced/sso-permission_h.png#dark\\\",\\\"https://alist.nn.ci/img/advanced/sso_cm.png\\\",\\\"https://alist.nn.ci/img/advanced/sso_add_app.png\\\",\\\"https://alist.nn.ci/img/advanced/sso_fix_logo.png\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/guide/advanced/sso.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList Docs\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"Third-party single sign-on\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"Third-party single sign-on Single sign-on client id client ID Single sign-on client secrets secrets ID matters needing attention Remember to write and save the background parame...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://alist.nn.ci/img/advanced/github.png\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Advanced\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"zh-cn\",\"href\":\"https://alist.nn.ci/zh/guide/advanced/sso.html\"}]]},\"readingTime\":{\"minutes\":9.79,\"words\":2937},\"filePathRelative\":\"guide/advanced/sso.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/guide/drivers/uc.html.vue"
+const data = JSON.parse("{\"path\":\"/guide/drivers/uc.html\",\"title\":\"UC / TV\",\"lang\":\"en-US\",\"frontmatter\":{\"icon\":\"iconfont icon-state\",\"order\":176,\"category\":[\"Guide\"],\"tag\":[\"Storage\",\"Guide\",\"Native Rroxy\",\"302\"],\"sticky\":true,\"star\":true,\"description\":\"UC / TV UC Cloud https://drive.uc.cn/ Cookie Press F12 to open \\\"Debug\\\", select \\\"Network\\\", select any request on the left, and find the one with the Cookie parameter. Root Folder...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"UC / TV\\\",\\\"image\\\":[\\\"https://alist.nn.ci/img/drivers/uc/uc_cookie.png\\\",\\\"https://alist.nn.ci/img/drivers/uc/uc_fileid.png\\\",\\\"https://alist.nn.ci/img/drivers/tv_qrcode.png\\\",\\\"https://alist.nn.ci/img/drivers/uc/uc_fileid.png\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/guide/drivers/uc.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList Docs\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"UC / TV\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"UC / TV UC Cloud https://drive.uc.cn/ Cookie Press F12 to open \\\"Debug\\\", select \\\"Network\\\", select any request on the left, and find the one with the Cookie parameter. Root Folder...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://alist.nn.ci/img/drivers/uc/uc_cookie.png\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"302\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Native Rroxy\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Storage\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"zh-cn\",\"href\":\"https://alist.nn.ci/zh/guide/drivers/uc.html\"}]]},\"readingTime\":{\"minutes\":1.56,\"words\":469},\"filePathRelative\":\"guide/drivers/uc.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

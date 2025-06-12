@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/zh/guide/drivers/SMB.html.vue"
+const data = JSON.parse("{\"path\":\"/zh/guide/drivers/SMB.html\",\"title\":\"SMB\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"iconfont icon-state\",\"order\":196,\"category\":[\"Guide\"],\"tag\":[\"Storage\",\"Guide\",\"本地代理\"],\"sticky\":true,\"star\":true,\"description\":\"SMB 是把smb挂载到Alist，而不是Alist通过smb共享出来，而不是smb能像webdav共享出来。 因无相关设备和服务，无法测试，可以根据 GitHub Discussions 讨论中提供的办法自行测试一下 https://github.com/alist-org/alist/discussions/2215#discussioncomme...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"SMB\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/zh/guide/drivers/SMB.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList文档\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"SMB\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"SMB 是把smb挂载到Alist，而不是Alist通过smb共享出来，而不是smb能像webdav共享出来。 因无相关设备和服务，无法测试，可以根据 GitHub Discussions 讨论中提供的办法自行测试一下 https://github.com/alist-org/alist/discussions/2215#discussioncomme...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"本地代理\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Storage\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://alist.nn.ci/guide/drivers/SMB.html\"}]]},\"readingTime\":{\"minutes\":0.83,\"words\":250},\"filePathRelative\":\"zh/guide/drivers/SMB.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

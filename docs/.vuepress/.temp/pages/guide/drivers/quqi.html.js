@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/guide/drivers/quqi.html.vue"
+const data = JSON.parse("{\"path\":\"/guide/drivers/quqi.html\",\"title\":\"Quqi Cloud\",\"lang\":\"en-US\",\"frontmatter\":{\"icon\":\"iconfont icon-state\",\"order\":121,\"category\":[\"Guide\"],\"tag\":[\"Storage\",\"Guide\",\"Native Rroxy\"],\"sticky\":true,\"star\":true,\"description\":\"Quqi Cloud Quqi Cloud：https://quqi.com ( v3.31.0) Phone、Password Log in with your mobile phone number and password. It is recommended to use Cookie to log in. Cookie Login using...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"Quqi Cloud\\\",\\\"image\\\":[\\\"https://alist.nn.ci/img/drivers/quqi/quqi_cookie.png\\\",\\\"https://alist.nn.ci/img/drivers/quqi/quqi_folder_id.png\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/guide/drivers/quqi.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList Docs\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"Quqi Cloud\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"Quqi Cloud Quqi Cloud：https://quqi.com ( v3.31.0) Phone、Password Log in with your mobile phone number and password. It is recommended to use Cookie to log in. Cookie Login using...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://alist.nn.ci/img/drivers/quqi/quqi_cookie.png\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Native Rroxy\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Storage\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"zh-cn\",\"href\":\"https://alist.nn.ci/zh/guide/drivers/quqi.html\"}]]},\"readingTime\":{\"minutes\":0.88,\"words\":265},\"filePathRelative\":\"guide/drivers/quqi.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

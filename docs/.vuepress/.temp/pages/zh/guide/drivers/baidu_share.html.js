@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/zh/guide/drivers/baidu_share.html.vue"
+const data = JSON.parse("{\"path\":\"/zh/guide/drivers/baidu_share.html\",\"title\":\"百度分享\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"iconfont icon-state\",\"order\":71,\"category\":[\"Guide\"],\"tag\":[\"Storage\",\"Guide\",\"302\"],\"sticky\":true,\"star\":true,\"gitInclude\":[\"baidu.md\"],\"description\":\"百度分享 挂载百度网盘分享链接，可供下载，无上传编辑等功能，api非官方。 配置 百度网盘分享链接：surl，百度网盘分享密码：pwd 浏览目录需设置百度网盘分享链接和百度网盘分享密码，下载还需设置BDUSS。 百度网盘分享链接即为分享地址pan.baidu.com/s/后?前部分，百度网盘分享密码填4位提取码，无提取码留空。 百度网盘分享链接和百度网...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"百度分享\\\",\\\"image\\\":[\\\"https://alist.nn.ci/img/drivers/baidu/add_bd_share.png\\\",\\\"https://alist.nn.ci/img/drivers/baidu/bd_share_test.png\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/zh/guide/drivers/baidu_share.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList文档\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"百度分享\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"百度分享 挂载百度网盘分享链接，可供下载，无上传编辑等功能，api非官方。 配置 百度网盘分享链接：surl，百度网盘分享密码：pwd 浏览目录需设置百度网盘分享链接和百度网盘分享密码，下载还需设置BDUSS。 百度网盘分享链接即为分享地址pan.baidu.com/s/后?前部分，百度网盘分享密码填4位提取码，无提取码留空。 百度网盘分享链接和百度网...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://alist.nn.ci/img/drivers/baidu/add_bd_share.png\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"302\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Storage\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://alist.nn.ci/guide/drivers/baidu_share.html\"}]]},\"readingTime\":{\"minutes\":2.07,\"words\":621},\"filePathRelative\":\"zh/guide/drivers/baidu_share.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

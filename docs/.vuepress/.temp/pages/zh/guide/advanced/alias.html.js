@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/zh/guide/advanced/alias.html.vue"
+const data = JSON.parse("{\"path\":\"/zh/guide/advanced/alias.html\",\"title\":\"alias别名\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"iconfont icon-file\",\"order\":4,\"category\":[\"Guide\"],\"tag\":[\"Advanced\",\"Guide\"],\"sticky\":true,\"star\":true,\"description\":\"alias别名 我们先看一张示意图 alias 我们看到两个不同的文件夹合并在一个文件夹里面了，名字一样的文件文件夹也都合并在一起了，独有的单独显示了 例1 riluo.jpg 是本地1 独有的，在上面显示了 例2 两个文件夹都有video文件夹，但是里面的内容也会进行合并，子文件夹也同样适用于同名合并的展示规则 两个文件夹分别有两个视频，但是有一个是...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"alias别名\\\",\\\"image\\\":[\\\"https://alist.nn.ci/img/drivers/alias/alias.png\\\",\\\"https://alist.nn.ci/img/drivers/alias/alias-3.png\\\",\\\"https://alist.nn.ci/img/drivers/alias/alias-2.png\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/zh/guide/advanced/alias.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList文档\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"alias别名\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"alias别名 我们先看一张示意图 alias 我们看到两个不同的文件夹合并在一个文件夹里面了，名字一样的文件文件夹也都合并在一起了，独有的单独显示了 例1 riluo.jpg 是本地1 独有的，在上面显示了 例2 两个文件夹都有video文件夹，但是里面的内容也会进行合并，子文件夹也同样适用于同名合并的展示规则 两个文件夹分别有两个视频，但是有一个是...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://alist.nn.ci/img/drivers/alias/alias.png\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Advanced\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://alist.nn.ci/guide/advanced/alias.html\"}]]},\"readingTime\":{\"minutes\":7.61,\"words\":2284},\"filePathRelative\":\"zh/guide/advanced/alias.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

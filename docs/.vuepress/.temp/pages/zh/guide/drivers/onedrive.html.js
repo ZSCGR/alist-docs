@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/zh/guide/drivers/onedrive.html.vue"
+const data = JSON.parse("{\"path\":\"/zh/guide/drivers/onedrive.html\",\"title\":\"OneDrive / 分享\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"iconfont icon-state\",\"order\":36,\"category\":[\"Guide\"],\"tag\":[\"Storage\",\"Guide\",\"302\",\"官方\"],\"sticky\":true,\"star\":true,\"headerDepth\":5,\"toc\":{\"levels\":[2,7]},\"description\":\"OneDrive / 分享 正常 OneDrive 挂载 提示 如果你的账号不支持 API，（比如学校账号没有验证管理员，或者管理员禁用了 API），那么你也可以通过 WebDAV 挂载。 有关详细信息，请参阅 首先打开 https://alist.nn.ci/tool/onedrive/request 创建应用 你也可以选择跳过此步，使用默认提供的c...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"OneDrive / 分享\\\",\\\"image\\\":[\\\"https://alist.nn.ci/img/drivers/onedrive-register-app.png\\\",\\\"https://alist.nn.ci/img/drivers/onedrive-new-password.png\\\",\\\"https://alist.nn.ci/img/drivers/onedrive-update-permission.png\\\",\\\"https://alist.nn.ci/img/drivers/onedrive_app/od_share_add.png\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/zh/guide/drivers/onedrive.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList文档\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"OneDrive / 分享\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"OneDrive / 分享 正常 OneDrive 挂载 提示 如果你的账号不支持 API，（比如学校账号没有验证管理员，或者管理员禁用了 API），那么你也可以通过 WebDAV 挂载。 有关详细信息，请参阅 首先打开 https://alist.nn.ci/tool/onedrive/request 创建应用 你也可以选择跳过此步，使用默认提供的c...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://alist.nn.ci/img/drivers/onedrive-register-app.png\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"官方\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"302\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Storage\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://alist.nn.ci/guide/drivers/onedrive.html\"}]]},\"readingTime\":{\"minutes\":2.78,\"words\":835},\"filePathRelative\":\"zh/guide/drivers/onedrive.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

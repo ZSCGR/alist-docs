@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/zh/guide/drivers/thunder.html.vue"
+const data = JSON.parse("{\"path\":\"/zh/guide/drivers/thunder.html\",\"title\":\"迅雷云盘 / X / 浏览器\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"iconfont icon-state\",\"order\":151,\"category\":[\"Guide\"],\"tag\":[\"Storage\",\"Guide\",\"本地代理\",\"302\"],\"sticky\":true,\"star\":true,\"description\":\"迅雷云盘 / X / 浏览器 提示 迅雷 前两个是服务国内用户 小白请直接使用 迅雷不要使用 迅雷专家版 迅雷专家版主要提供更自由的设置,实现更多登录方式 迅雷 X 服务海外用户，截止文档发布时只有 安卓版其它版本暂未发布 迅雷 X 目前未开启会员的速度也符合使用情况，后期更改暂时未知 使用APP可能需要 Proxy，挂载在AList不需要 迅雷浏览器...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"迅雷云盘 / X / 浏览器\\\",\\\"image\\\":[\\\"https://alist.nn.ci/img/drivers/xunlei/x1.png\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/x2.png\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/x3.png\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/x4.png\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/x5.png\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/x6.png\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/xlx_name.jpg\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/xlx_name.jpg\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/xlx_z1.jpg\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/xlx_z2.jpg\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/x_br_foled.png\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/x_br_foled.png\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/x_br_add1.png\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/x_br_add2.png\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/zh/guide/drivers/thunder.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList文档\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"迅雷云盘 / X / 浏览器\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"迅雷云盘 / X / 浏览器 提示 迅雷 前两个是服务国内用户 小白请直接使用 迅雷不要使用 迅雷专家版 迅雷专家版主要提供更自由的设置,实现更多登录方式 迅雷 X 服务海外用户，截止文档发布时只有 安卓版其它版本暂未发布 迅雷 X 目前未开启会员的速度也符合使用情况，后期更改暂时未知 使用APP可能需要 Proxy，挂载在AList不需要 迅雷浏览器...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://alist.nn.ci/img/drivers/xunlei/x1.png\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"302\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"本地代理\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Storage\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://alist.nn.ci/guide/drivers/thunder.html\"}]]},\"readingTime\":{\"minutes\":11.65,\"words\":3495},\"filePathRelative\":\"zh/guide/drivers/thunder.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

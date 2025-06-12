@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/zh/guide/drivers/chaoxing.html.vue"
+const data = JSON.parse("{\"path\":\"/zh/guide/drivers/chaoxing.html\",\"title\":\"超星星小组盘\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"iconfont icon-state\",\"order\":146,\"category\":[\"Guide\"],\"tag\":[\"Storage\",\"Guide\",\"本地代理\"],\"sticky\":true,\"star\":true,\"description\":\"超星星小组盘 超星星小组盘也是隶属于超星星，登录超星星后在左侧侧边栏下方能看到一个小组 官网链接：https://i.chaoxing.com 用户名 密码 超星星的帐号密码 Bbsid 按照下面示例流程获取 根文件夹ID 默认为-1，其它子文件夹ID获取方式看下图示例 在请求中搜索关键词getResourceList，为了方便我们可以直接搜索 lis...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"超星星小组盘\\\",\\\"image\\\":[\\\"https://alist.nn.ci/img/drivers/chaoxing/chaoxing_bbsid.png\\\",\\\"https://alist.nn.ci/img/drivers/chaoxing/chaoxing_folder_id.gif\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/zh/guide/drivers/chaoxing.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList文档\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"超星星小组盘\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"超星星小组盘 超星星小组盘也是隶属于超星星，登录超星星后在左侧侧边栏下方能看到一个小组 官网链接：https://i.chaoxing.com 用户名 密码 超星星的帐号密码 Bbsid 按照下面示例流程获取 根文件夹ID 默认为-1，其它子文件夹ID获取方式看下图示例 在请求中搜索关键词getResourceList，为了方便我们可以直接搜索 lis...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://alist.nn.ci/img/drivers/chaoxing/chaoxing_bbsid.png\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"本地代理\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Storage\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://alist.nn.ci/guide/drivers/chaoxing.html\"}]]},\"readingTime\":{\"minutes\":1.04,\"words\":312},\"filePathRelative\":\"zh/guide/drivers/chaoxing.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

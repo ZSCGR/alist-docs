@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/zh/guide/advanced/s3.html.vue"
+const data = JSON.parse("{\"path\":\"/zh/guide/advanced/s3.html\",\"title\":\"对象存储\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"fas fa-database\",\"order\":11,\"category\":[\"Guide\"],\"tag\":[\"Advanced\",\"Guide\"],\"sticky\":true,\"star\":true,\"description\":\"对象存储 此功能是将AList映射为S3协议，可以使用 S3客户端 使用和查看，就像AList可以映射为WebDav一样 可以是整个AList（根目录），也可以是单独某个文件夹 1.使用方式 1.1 如果是第一次使用，先打开AList后台生成一下 如果你后续更新访问ID和秘钥，更新保存，再重启AList才可以生效 1.2 打开 ，将enable字段改成...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"对象存储\\\",\\\"image\\\":[\\\"https://alist.nn.ci/img/advanced/s3/s3_config.png\\\",\\\"https://alist.nn.ci/img/advanced/s3/s3_add_backup.png\\\",\\\"https://alist.nn.ci/img/advanced/s3/s3browser.png\\\",\\\"https://alist.nn.ci/img/advanced/s3/s3drive.png\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/zh/guide/advanced/s3.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList文档\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"对象存储\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"对象存储 此功能是将AList映射为S3协议，可以使用 S3客户端 使用和查看，就像AList可以映射为WebDav一样 可以是整个AList（根目录），也可以是单独某个文件夹 1.使用方式 1.1 如果是第一次使用，先打开AList后台生成一下 如果你后续更新访问ID和秘钥，更新保存，再重启AList才可以生效 1.2 打开 ，将enable字段改成...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://alist.nn.ci/img/advanced/s3/s3_config.png\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Advanced\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://alist.nn.ci/guide/advanced/s3.html\"}]]},\"readingTime\":{\"minutes\":2.22,\"words\":665},\"filePathRelative\":\"zh/guide/advanced/s3.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

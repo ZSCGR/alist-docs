@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/zh/guide/advanced/ipa.html.vue"
+const data = JSON.parse("{\"path\":\"/zh/guide/advanced/ipa.html\",\"title\":\"IPA 安装\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"iconfont icon-mini-app\",\"order\":8,\"category\":[\"Guide\"],\"tag\":[\"Advanced\",\"Guide\"],\"sticky\":true,\"star\":true,\"description\":\"IPA 安装 1.IPA原生安装 直接上传 ipa 文件即可。 但是对于 iOS 16 以上的 设备，你需要将 ipa 文件命名为：原文件名@bundle-identifier.ipa，即需要在原来的基础上加入@bundle-identifier，其中的 bundle-identifier 即 IPA 包中 Info.plist 的 CFBundleI...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"IPA 安装\\\",\\\"image\\\":[\\\"https://pic.rmb.bdstatic.com/bjh/ff1e47ebc1efe5a907dbfffabf4d5f67.gif\\\",\\\"https://alist.nn.ci/img/advanced/TrollStore.jpg\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/zh/guide/advanced/ipa.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList文档\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"IPA 安装\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"IPA 安装 1.IPA原生安装 直接上传 ipa 文件即可。 但是对于 iOS 16 以上的 设备，你需要将 ipa 文件命名为：原文件名@bundle-identifier.ipa，即需要在原来的基础上加入@bundle-identifier，其中的 bundle-identifier 即 IPA 包中 Info.plist 的 CFBundleI...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://pic.rmb.bdstatic.com/bjh/ff1e47ebc1efe5a907dbfffabf4d5f67.gif\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Advanced\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://alist.nn.ci/guide/advanced/ipa.html\"}]]},\"readingTime\":{\"minutes\":3.66,\"words\":1099},\"filePathRelative\":\"zh/guide/advanced/ipa.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

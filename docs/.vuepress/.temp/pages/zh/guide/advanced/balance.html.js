@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/zh/guide/advanced/balance.html.vue"
+const data = JSON.parse("{\"path\":\"/zh/guide/advanced/balance.html\",\"title\":\"负载均衡\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"iconfont icon-speed\",\"order\":7,\"category\":[\"Guide\"],\"tag\":[\"Advanced\",\"Guide\"],\"sticky\":true,\"star\":true,\"description\":\"负载均衡 要求两个存储中的文件结构完全相同，程序会自动轮询所有存储进行下载/请求。 可以使用不同网盘，但是文件目录要一致。 若修改主显示挂载的网盘后和负载挂载的网盘目录树不一致导致返回错误，自行解决进行负载网盘的目录文件保持一致。 第一个带红框标记的为主挂载，也就是在前端页面显示的，后面剩下的九个就是对第一个进行负载均衡 如何使用​ 第一个存储可以正常...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"负载均衡\\\",\\\"image\\\":[\\\"https://alist.nn.ci/img/advanced/balance.png\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/zh/guide/advanced/balance.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList文档\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"负载均衡\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"负载均衡 要求两个存储中的文件结构完全相同，程序会自动轮询所有存储进行下载/请求。 可以使用不同网盘，但是文件目录要一致。 若修改主显示挂载的网盘后和负载挂载的网盘目录树不一致导致返回错误，自行解决进行负载网盘的目录文件保持一致。 第一个带红框标记的为主挂载，也就是在前端页面显示的，后面剩下的九个就是对第一个进行负载均衡 如何使用​ 第一个存储可以正常...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://alist.nn.ci/img/advanced/balance.png\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Advanced\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://alist.nn.ci/guide/advanced/balance.html\"}]]},\"readingTime\":{\"minutes\":0.9,\"words\":270},\"filePathRelative\":\"zh/guide/advanced/balance.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

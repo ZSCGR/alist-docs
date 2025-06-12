@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/zh/guide/api/auth.html.vue"
+const data = JSON.parse("{\"path\":\"/zh/guide/api/auth.html\",\"title\":\"auth\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"iconfont icon-token\",\"order\":2,\"category\":[\"Guide\"],\"tag\":[\"API\",\"Guide\"],\"sticky\":true,\"star\":true,\"description\":\"auth POST token获取 POST /api/auth/login 获取某个用户的临时JWt token, 有效期默认48小时 Body 请求参数 请求参数 返回示例 成功 返回结果 返回数据结构 状态码 200 POST token获取hash POST /api/auth/login/hash 获取某个用户的临时JWt token，传入的...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"auth\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/zh/guide/api/auth.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList文档\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"auth\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"auth POST token获取 POST /api/auth/login 获取某个用户的临时JWt token, 有效期默认48小时 Body 请求参数 请求参数 返回示例 成功 返回结果 返回数据结构 状态码 200 POST token获取hash POST /api/auth/login/hash 获取某个用户的临时JWt token，传入的...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"API\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://alist.nn.ci/guide/api/auth.html\"}]]},\"readingTime\":{\"minutes\":4.74,\"words\":1423},\"filePathRelative\":\"zh/guide/api/auth.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

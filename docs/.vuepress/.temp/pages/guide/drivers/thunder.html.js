@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/guide/drivers/thunder.html.vue"
+const data = JSON.parse("{\"path\":\"/guide/drivers/thunder.html\",\"title\":\"Thunder Cloud Disk\",\"lang\":\"en-US\",\"frontmatter\":{\"icon\":\"iconfont icon-state\",\"order\":151,\"category\":[\"Guide\"],\"tag\":[\"Storage\",\"Guide\",\"Native Rroxy\",\"302\"],\"sticky\":true,\"star\":true,\"description\":\"Thunder Cloud Disk Tips Please use Thunder directly instead of ThunderExpert if you are not good at it. ThunderExpert mainly provides more free settings and realizes more login ...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"Thunder Cloud Disk\\\",\\\"image\\\":[\\\"https://alist.nn.ci/img/drivers/xunlei/x1.png\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/x2.png\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/x3.png\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/x4.png\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/x5.png\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/x6.png\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/xlx_name.jpg\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/xlx_name.jpg\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/xlx_z1.jpg\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/xlx_z2.jpg\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/x_br_foled.png\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/x_br_foled.png\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/x_br_add1.png\\\",\\\"https://alist.nn.ci/img/drivers/xunlei/x_br_add2.png\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/guide/drivers/thunder.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList Docs\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"Thunder Cloud Disk\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"Thunder Cloud Disk Tips Please use Thunder directly instead of ThunderExpert if you are not good at it. ThunderExpert mainly provides more free settings and realizes more login ...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://alist.nn.ci/img/drivers/xunlei/x1.png\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"302\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Native Rroxy\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Storage\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"zh-cn\",\"href\":\"https://alist.nn.ci/zh/guide/drivers/thunder.html\"}]]},\"readingTime\":{\"minutes\":8.63,\"words\":2588},\"filePathRelative\":\"guide/drivers/thunder.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

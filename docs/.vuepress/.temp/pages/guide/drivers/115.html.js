@@ -1,0 +1,16 @@
+import comp from "F:/web/alist-docs/docs/.vuepress/.temp/pages/guide/drivers/115.html.vue"
+const data = JSON.parse("{\"path\":\"/guide/drivers/115.html\",\"title\":\"115 Cloud / Share\",\"lang\":\"en-US\",\"frontmatter\":{\"icon\":\"iconfont icon-state\",\"order\":26,\"category\":[\"Guide\"],\"tag\":[\"Storage\",\"Guide\",\"302\"],\"sticky\":true,\"star\":true,\"headerDepth\":5,\"toc\":{\"levels\":[2,7]},\"description\":\"115 Cloud / Share Tips 115 Cloud Root folder ID Open the official website of 115 Cloud and click the string behind the url when you click into the folder you want to set, such a...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"115 Cloud / Share\\\",\\\"image\\\":[\\\"https://alist.nn.ci/img/drivers/115/115_qrcode.png\\\",\\\"https://alist.nn.ci/img/drivers/offline_download_error.png\\\",\\\"https://alist.nn.ci/img/drivers/115/url_demo.png\\\",\\\"https://alist.nn.ci/img/drivers/115/root_cid.png\\\",\\\"https://alist.nn.ci/img/drivers/115/file_cid.png\\\",\\\"https://alist.nn.ci/img/drivers/115/add_error.png\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Andy Hsu\\\",\\\"url\\\":\\\"https://i.nn.ci\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://alist.nn.ci/guide/drivers/115.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"AList Docs\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"115 Cloud / Share\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"115 Cloud / Share Tips 115 Cloud Root folder ID Open the official website of 115 Cloud and click the string behind the url when you click into the folder you want to set, such a...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://alist.nn.ci/img/drivers/115/115_qrcode.png\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"302\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Guide\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Storage\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"zh-cn\",\"href\":\"https://alist.nn.ci/zh/guide/drivers/115.html\"}]]},\"readingTime\":{\"minutes\":9.54,\"words\":2862},\"filePathRelative\":\"guide/drivers/115.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
