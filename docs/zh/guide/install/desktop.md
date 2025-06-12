@@ -40,7 +40,7 @@ import Desktop from "@Desktop";
 
 
 <!-- ：**https://mbd.pub/o/bread/ZJaTl5xy** -->
-1. 进入官网 ==> **https://desktop.alistgo.com/zh** 
+1. 进入官网 ==> **https://desktop.alist-docs.chgr.cc/zh** 
 2. 首页购买 ==> 获取激活key
 
 ![](/img/desktop/new_get_key.png)
