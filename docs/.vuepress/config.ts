@@ -3,7 +3,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { getDirname, path } from "@vuepress/utils";
 import theme from "./theme.js";
 
-const __dirname = getDirname("file://F:\\web\\tmp\\docs-main\\docs\\.vuepress");
+const __dirname = getDirname(import.meta.url);
 
 export default defineUserConfig({
   theme,
