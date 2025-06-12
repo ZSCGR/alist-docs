@@ -11,6 +11,7 @@
     "docs:update-package": "npx vp-update"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
     "@vuepress/bundler-vite": "2.0.0-rc.23",
     "@vuepress/plugin-docsearch": "^2.0.0-rc.108",
     "@vuepress/plugin-watermark": "^2.0.0-rc.108",
